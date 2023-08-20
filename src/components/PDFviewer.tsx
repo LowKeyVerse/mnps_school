@@ -15,10 +15,10 @@ const PDFviewer = ({ fileURL }: Props) => {
       <div
         style={{
           border: "1px solid rgba(0, 0, 0, 0.3)",
-          height: "750px",
+          height: "900px",
         }}
       >
-        <Viewer fileUrl={fileURL} />
+        <Viewer fileUrl={fileURL} defaultScale={1.2} />
       </div>
     </Worker>
   );

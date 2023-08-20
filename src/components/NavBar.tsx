@@ -4,8 +4,8 @@ import logo from "../assets/logo.webp";
 const NavBar = () => {
   return (
     <HStack>
-      <Image src={logo} boxSize="100px" />
-      <Text>MNPS</Text>
+      <Image src={logo} boxSize="80px" />
+      <Text>Maa Nainawati Public School</Text>
     </HStack>
   );
 };
