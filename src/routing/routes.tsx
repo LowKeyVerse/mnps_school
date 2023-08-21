@@ -16,37 +16,55 @@ import SMCinformationPage from "./PrivateDocuments/SMCinformationPage";
 import SocietyRenewalCertificatePage from "./PrivateDocuments/SocietyRenewalCertificatePage";
 
 const router = createBrowserRouter([
-  { path: "/", element: <HomePage /> },
-  { path: "/AnnualAcademicCalendar", element: <AnnualAcademicCalendarPage /> },
-  { path: "/FeeStructure", element: <FeeStructureInformationPage /> },
-  { path: "/LastThreeYearsResult", element: <LastThreeYearsResultsPage /> },
+  { path: "mnps_school/", element: <HomePage /> },
   {
-    path: "Private/BuildingSafetyCertificate",
+    path: "mnps_school/AnnualAcademicCalendar",
+    element: <AnnualAcademicCalendarPage />,
+  },
+  {
+    path: "mnps_school/FeeStructure",
+    element: <FeeStructureInformationPage />,
+  },
+  {
+    path: "mnps_school/LastThreeYearsResult",
+    element: <LastThreeYearsResultsPage />,
+  },
+  {
+    path: "mnps_school/Private/BuildingSafetyCertificate",
     element: <BuildingSafetyCertificatePage />,
   },
 
   {
-    path: "Private/FireSafetyCertificate",
+    path: "mnps_school/Private/FireSafetyCertificate",
     element: <FireSafetyCertificatePage />,
   },
-  { path: "Private/LastExtension", element: <LastExtensionLetterPage /> },
-
-  { path: "Private/PTAInformation", element: <PTAinformationPage /> },
   {
-    path: "Private/RTERenewalCertificate",
+    path: "mnps_school/Private/LastExtension",
+    element: <LastExtensionLetterPage />,
+  },
+
+  {
+    path: "mnps_school/Private/PTAInformation",
+    element: <PTAinformationPage />,
+  },
+  {
+    path: "mnps_school/Private/RTERenewalCertificate",
     element: <RTE_RenewalCertificatePage />,
   },
   {
-    path: "Private/SanitationCertificate",
+    path: "mnps_school/Private/SanitationCertificate",
     element: <SanitationCertificatePage />,
   },
   {
-    path: "Private/SelfCertificationForExtension",
+    path: "mnps_school/Private/SelfCertificationForExtension",
     element: <SelfCertificationForExtensionPage />,
   },
-  { path: "Private/SMCinformation", element: <SMCinformationPage /> },
   {
-    path: "Private/SocietyRenewalCertificate",
+    path: "mnps_school/Private/SMCinformation",
+    element: <SMCinformationPage />,
+  },
+  {
+    path: "mnps_school/Private/SocietyRenewalCertificate",
     element: <SocietyRenewalCertificatePage />,
   },
 ]);
