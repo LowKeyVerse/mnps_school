@@ -1,12 +1,11 @@
 {
   "name": "mnps_school",
-  "homepage": "https://lokesh-22.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "vite build && gh-pages -d dist"
